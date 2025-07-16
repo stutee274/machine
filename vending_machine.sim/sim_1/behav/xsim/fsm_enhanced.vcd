@@ -1,0 +1,373 @@
+$date
+   Tue Jul 15 20:16:41 2025
+$end
+$version
+  2018.2
+$end
+$timescale
+  1ps
+$end
+$scope module tb3 $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 1 # one $end
+$var reg 1 $ two $end
+$var reg 1 % five $end
+$var reg 1 & select $end
+$var reg 1 ' admin $end
+$var reg 4 ( tea_refill [3:0] $end
+$var reg 4 ) coffee_refill [3:0] $end
+$var wire 1 * dispense_tea $end
+$var wire 1 + dispense_coffee $end
+$var wire 4 , change [3:0] $end
+$var wire 1 - msg_ready $end
+$var wire 1 . msg_dispensed $end
+$var wire 1 / msg_out_of_stock $end
+$var wire 1 0 msg_insufficient $end
+$scope module uut $end
+$var wire 1 1 clk $end
+$var wire 1 2 rst $end
+$var wire 1 3 one $end
+$var wire 1 4 two $end
+$var wire 1 5 five $end
+$var wire 1 6 select $end
+$var wire 1 7 admin $end
+$var wire 4 8 tea_refill [3:0] $end
+$var wire 4 9 coffee_refill [3:0] $end
+$var reg 1 : dispense_tea $end
+$var reg 1 ; dispense_coffee $end
+$var reg 4 < change [3:0] $end
+$var reg 1 = msg_ready $end
+$var reg 1 > msg_dispensed $end
+$var reg 1 ? msg_out_of_stock $end
+$var reg 1 @ msg_insufficient $end
+$var reg 4 A balance [3:0] $end
+$var reg 4 B tea_stock [3:0] $end
+$var reg 4 C coffee_stock [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+0%
+0&
+0'
+b0 (
+b0 )
+0*
+0+
+b0 ,
+1-
+0.
+0/
+00
+01
+12
+03
+04
+05
+06
+07
+b0 8
+b0 9
+0:
+0;
+b0 <
+1=
+0>
+0?
+0@
+b0 A
+b101 B
+b101 C
+$end
+#5000
+1!
+11
+#10000
+0!
+0"
+01
+02
+#15000
+1!
+10
+11
+1=
+1@
+#20000
+0!
+1$
+01
+14
+#25000
+1!
+11
+1=
+1@
+b10 A
+#30000
+0!
+0$
+01
+04
+#35000
+1!
+11
+1=
+1@
+#40000
+0!
+1$
+01
+14
+#45000
+1!
+11
+1=
+1@
+b100 A
+#50000
+0!
+0$
+01
+04
+#55000
+1!
+11
+1=
+1@
+#60000
+0!
+1#
+01
+13
+#65000
+1!
+11
+1=
+1@
+b101 A
+#70000
+0!
+0#
+01
+03
+#75000
+1!
+1*
+1.
+00
+11
+1:
+1=
+1>
+0@
+b0 A
+b100 B
+#80000
+0!
+01
+#85000
+1!
+0*
+0.
+10
+11
+0:
+1=
+0>
+1@
+#90000
+0!
+01
+#95000
+1!
+11
+1=
+1@
+#100000
+0!
+01
+#105000
+1!
+11
+1=
+1@
+#110000
+0!
+1%
+01
+15
+#115000
+1!
+11
+1=
+1@
+b101 A
+#120000
+0!
+0%
+01
+05
+#125000
+1!
+1*
+1.
+00
+11
+1:
+1=
+1>
+0@
+b0 A
+b11 B
+#130000
+0!
+1&
+01
+16
+#135000
+1!
+0*
+0.
+10
+11
+0:
+1=
+0>
+1@
+#140000
+0!
+01
+#145000
+1!
+11
+1=
+1@
+#150000
+0!
+01
+#155000
+1!
+11
+1=
+1@
+#160000
+0!
+1$
+01
+14
+#165000
+1!
+11
+1=
+1@
+b10 A
+#170000
+0!
+0$
+01
+04
+#175000
+1!
+11
+1=
+1@
+#180000
+0!
+01
+#185000
+1!
+11
+1=
+1@
+#190000
+0!
+01
+#195000
+1!
+11
+1=
+1@
+#200000
+0!
+01
+#205000
+1!
+11
+1=
+1@
+#210000
+0!
+1'
+b11 (
+b10 )
+01
+17
+b11 8
+b10 9
+#215000
+1!
+00
+11
+1=
+0@
+b0 A
+b10 C
+#220000
+0!
+0'
+01
+07
+#225000
+1!
+10
+11
+1=
+1@
+#230000
+0!
+1%
+01
+15
+#235000
+1!
+11
+1=
+1@
+b101 A
+#240000
+0!
+0%
+01
+05
+#245000
+1!
+11
+1=
+1@
+#250000
+0!
+0&
+01
+06
+#255000
+1!
+1*
+1.
+00
+11
+1:
+1=
+1>
+0@
+b0 A
+b10 B
+#260000
+0!
+01
